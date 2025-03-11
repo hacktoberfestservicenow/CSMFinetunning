@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_customerservice_escalation_template">
+    <sn_customerservice_escalation_template action="INSERT_OR_UPDATE">
+        <add_manager>false</add_manager>
+        <approval_group display_value="HappeningIT" name="HappeningIT">ad6595a583d01210950111d6feaad3ba</approval_group>
+        <esc_approval_workflow/>
+        <name>NewCase Escalation</name>
+        <skip_approval>false</skip_approval>
+        <sys_class_name>sn_customerservice_escalation_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 08:36:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>5069567583901210950111d6feaad3ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NewCase Escalation</sys_name>
+        <sys_package display_value="CSM Finetuning" source="x_1127653_csm_fine">3582b74583101210950111d6feaad3d9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Finetuning">3582b74583101210950111d6feaad3d9</sys_scope>
+        <sys_update_name>sn_customerservice_escalation_template_5069567583901210950111d6feaad3ed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 08:36:29</sys_updated_on>
+        <type>0</type>
+        <use_default_approval>true</use_default_approval>
+        <watch_list>6816f79cc0a8016401c5a33be04be441</watch_list>
+    </sn_customerservice_escalation_template>
+</record_update>

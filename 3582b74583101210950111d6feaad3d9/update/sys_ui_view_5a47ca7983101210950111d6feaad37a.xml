@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>newcase</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 07:14:59</sys_created_on>
+        <sys_id>5a47ca7983101210950111d6feaad37a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NewCase</sys_name>
+        <sys_package display_value="CSM Finetuning" source="x_1127653_csm_fine">3582b74583101210950111d6feaad3d9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Finetuning">3582b74583101210950111d6feaad3d9</sys_scope>
+        <sys_update_name>sys_ui_view_5a47ca7983101210950111d6feaad37a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 07:14:59</sys_updated_on>
+        <title>NewCase</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

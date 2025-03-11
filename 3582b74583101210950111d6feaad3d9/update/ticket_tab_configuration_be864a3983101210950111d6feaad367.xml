@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ticket_tab_configuration">
+    <ticket_tab_configuration action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <order>20</order>
+        <parent display_value="x_1127653_csm_fine_newcase">5436423983101210950111d6feaad388</parent>
+        <script><![CDATA[/** * The script should evaluate true/false or `answer` populated with true/false which validates if a tab is visible  * The `current` object refers to the current Task(extension) record  **/ ]]></script>
+        <sys_class_name>ticket_tab_configuration</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 07:11:44</sys_created_on>
+        <sys_id>be864a3983101210950111d6feaad367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CSM Finetuning" source="x_1127653_csm_fine">3582b74583101210950111d6feaad3d9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Finetuning">3582b74583101210950111d6feaad3d9</sys_scope>
+        <sys_update_name>ticket_tab_configuration_be864a3983101210950111d6feaad367</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 07:11:44</sys_updated_on>
+        <tab_name>Attachments</tab_name>
+        <table>x_1127653_csm_fine_newcase</table>
+        <type>attachments</type>
+        <visible/>
+        <widget/>
+        <widget_param/>
+    </ticket_tab_configuration>
+    <sys_translated_text action="delete_multiple" query="documentkey=be864a3983101210950111d6feaad367"/>
+</record_update>

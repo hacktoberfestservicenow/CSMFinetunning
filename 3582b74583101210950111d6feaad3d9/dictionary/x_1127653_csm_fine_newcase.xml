@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a1b14a6983d41210950111d6feaad38f" extends="sn_customerservice_case" label="NewCase" max_length="40" name="x_1127653_csm_fine_newcase" type="collection"/>
+</database>

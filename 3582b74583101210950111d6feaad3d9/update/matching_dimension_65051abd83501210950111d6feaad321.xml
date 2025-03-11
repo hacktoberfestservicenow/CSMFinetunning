@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="matching_dimension">
+    <matching_dimension action="INSERT_OR_UPDATE">
+        <aggregate_field>assigned_to</aggregate_field>
+        <aggregate_filter table="x_1127653_csm_fine_newcase">state=REJECTED^EQ<item display_value="Rejected" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="REJECTED"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </aggregate_filter>
+        <aggregate_table>x_1127653_csm_fine_newcase</aggregate_table>
+        <applies_to_field/>
+        <applies_to_table>x_1127653_csm_fine_newcase</applies_to_table>
+        <default_field_value/>
+        <description/>
+        <dimension_type>aggregate</dimension_type>
+        <display_name>Rejected Assigned NewCases</display_name>
+        <group_dependent>false</group_dependent>
+        <name>Rejected Assigned NewCases</name>
+        <reference_field/>
+        <reference_filter/>
+        <reference_label/>
+        <reference_table>task</reference_table>
+        <resource_field>sys_id</resource_field>
+        <resource_matching_field/>
+        <resource_table>sys_user</resource_table>
+        <script/>
+        <sys_class_name>matching_dimension</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 08:17:27</sys_created_on>
+        <sys_id>65051abd83501210950111d6feaad321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Rejected Assigned NewCases</sys_name>
+        <sys_package display_value="CSM Finetuning" source="x_1127653_csm_fine">3582b74583101210950111d6feaad3d9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Finetuning">3582b74583101210950111d6feaad3d9</sys_scope>
+        <sys_update_name>matching_dimension_65051abd83501210950111d6feaad321</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 08:17:27</sys_updated_on>
+        <use_reference>false</use_reference>
+        <user_field/>
+    </matching_dimension>
+</record_update>

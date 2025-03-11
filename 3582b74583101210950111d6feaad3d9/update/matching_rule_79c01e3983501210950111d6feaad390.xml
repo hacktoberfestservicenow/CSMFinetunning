@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="matching_rule">
+    <matching_rule action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <assignment_rule/>
+        <condition table="x_1127653_csm_fine_newcase">priority=1^ORpriority=2^EQ<item display_value="1 - Critical" endquery="false" field="priority" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item display_value="2 - High" endquery="false" field="priority" goto="false" newquery="false" operator="=" or="true" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <matching_options>dynamic</matching_options>
+        <name>Recommendation for NewCase</name>
+        <order>100</order>
+        <resource_type_table>sys_user</resource_type_table>
+        <schedule_filter>false</schedule_filter>
+        <script><![CDATA[/**
+* The script can also return the user to assign the task to or the group to assign the task to. If group is returned, the task will be 
+* assigned to the default assignee in the group.
+*
+* Example:
+* The following script requires personalizing the instance to add the Malware category and the Security assignment group.
+* if (current.category == "Hardware")
+*    current.assignment_group.setDisplayValue("Hardware"); 
+* else if (current.category == "Software")
+*    current.assignment_group.setDisplayValue("Software");
+* else if (current.category == "Malware")
+*    current.assignment_group.setDisplayValue("Security");	
+* 
+* Another Example:
+* Release Planning Example, which assigns the last person assigned to a release to the current release. This is returning the user 
+* the user to assign the task to. 
+* current.release.product.service.assigned_to;
+*/
+]]></script>
+        <supply_user_condition table="matching_user_group_skills">sysrole_role=b926522983581210950111d6feaad367^EQ<item display_table="sys_user_role" display_value="x_1127653_csm_fine.manager" endquery="false" field="sysrole_role" goto="false" newquery="false" operator="=" or="false" value="b926522983581210950111d6feaad367"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </supply_user_condition>
+        <supply_user_field_name>sysuser_sys_id</supply_user_field_name>
+        <supply_user_table>matching_user_group_skills</supply_user_table>
+        <sys_class_name>matching_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 07:59:31</sys_created_on>
+        <sys_id>79c01e3983501210950111d6feaad390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recommendation for NewCase</sys_name>
+        <sys_package display_value="CSM Finetuning" source="x_1127653_csm_fine">3582b74583101210950111d6feaad3d9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Finetuning">3582b74583101210950111d6feaad3d9</sys_scope>
+        <sys_update_name>matching_rule_79c01e3983501210950111d6feaad390</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 07:59:31</sys_updated_on>
+        <table>x_1127653_csm_fine_newcase</table>
+        <user/>
+    </matching_rule>
+</record_update>

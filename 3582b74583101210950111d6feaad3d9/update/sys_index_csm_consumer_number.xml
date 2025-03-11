@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <access_method>btree</access_method>
+        <col_name_string>number</col_name_string>
+        <index_col_name element="number" name="csm_consumer">b04e9cc883509210950111d6feaad30c</index_col_name>
+        <logical_table_name>csm_consumer</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-08-27 08:55:53</sys_created_on>
+        <sys_id>013b885983901210950111d6feaad352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>csm_consumer</sys_name>
+        <sys_package display_value="CSM Finetuning" source="x_1127653_csm_fine">3582b74583101210950111d6feaad3d9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Finetuning">3582b74583101210950111d6feaad3d9</sys_scope>
+        <sys_update_name>sys_index_csm_consumer_number</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-08-27 08:55:53</sys_updated_on>
+        <table display_value="Consumer" name="csm_consumer">b84e5cc883509210950111d6feaad3f8</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>

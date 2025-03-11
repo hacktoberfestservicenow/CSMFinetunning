@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="csm_table_map">
+    <csm_table_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced_condition><![CDATA[(function (source) {
+
+	// Add your code here
+	// return or set variable 'answer' to true/false
+	
+	return true;
+})(source);]]></advanced_condition>
+        <advanced_field_mapping>false</advanced_field_mapping>
+        <api_name>x_1127653_csm_fine.pcr_for_csm_finetuning</api_name>
+        <conditions/>
+        <mapping_name>PCR for CSM Finetuning</mapping_name>
+        <mapping_script><![CDATA[(function (source,target) {
+
+	// Use target object to set destination field mapping
+	
+})(source,target);]]></mapping_script>
+        <order>100</order>
+        <source_table>sn_case_type</source_table>
+        <sys_class_name>csm_table_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 09:40:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>21b7ae7183141210950111d6feaad3b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PCR for CSM Finetuning</sys_name>
+        <sys_package display_value="CSM Finetuning" source="x_1127653_csm_fine">3582b74583101210950111d6feaad3d9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Finetuning">3582b74583101210950111d6feaad3d9</sys_scope>
+        <sys_update_name>csm_table_map_21b7ae7183141210950111d6feaad3b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 09:40:03</sys_updated_on>
+        <target_table>sn_csm_case_digest_pcr</target_table>
+        <use_advanced_condition>false</use_advanced_condition>
+    </csm_table_map>
+</record_update>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b982805d83501210950111d6feaad3ac" extends="sys_import_set_row" label="Contacts Import" max_length="40" name="x_1127653_csm_fine_contacts_import" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Email" label="Email" max_length="40" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Business phone" label="Business phone" max_length="40" name="u_business_phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Account" label="Account" max_length="40" name="u_account" type="string"/>
+    </element>
+</database>

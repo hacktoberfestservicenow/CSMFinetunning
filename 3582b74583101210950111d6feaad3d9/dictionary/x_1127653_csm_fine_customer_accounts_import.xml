@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3c0ef38583501210950111d6feaad349" extends="sys_import_set_row" label="Customer Accounts Import" max_length="40" name="x_1127653_csm_fine_customer_accounts_import" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Zip/Postal code" label="Zip/Postal code" max_length="40" name="u_zip_postal_code" type="string"/>
+        <element attributes="import_attribute_name=Number" label="Number" max_length="40" name="u_number" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Phone" label="Phone" max_length="40" name="u_phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=City" label="City" max_length="40" name="u_city" type="string"/>
+    </element>
+</database>

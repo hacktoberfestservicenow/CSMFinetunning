@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_assignment">
+    <sysrule_assignment action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <description/>
+        <group/>
+        <match_conditions>ALL</match_conditions>
+        <name>Auto asign NewCase Summary to Agent</name>
+        <order>100</order>
+        <script>if(current.case_number)&#13;
+current.assigned_to = current.case_number.assigned_to;</script>
+        <sys_class_name>sysrule_assignment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 09:12:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f9e1ea3983d01210950111d6feaad3b2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Auto asign NewCase Summary to Agent</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CSM Finetuning" source="x_1127653_csm_fine">3582b74583101210950111d6feaad3d9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Finetuning">3582b74583101210950111d6feaad3d9</sys_scope>
+        <sys_update_name>sysrule_assignment_f9e1ea3983d01210950111d6feaad3b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 09:14:28</sys_updated_on>
+        <table>sn_csm_case_digest_cas</table>
+        <user/>
+    </sysrule_assignment>
+</record_update>

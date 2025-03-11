@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_csm_case_digest_config">
+    <sn_csm_case_digest_config action="INSERT_OR_UPDATE">
+        <approval_workflow/>
+        <case_condition table="x_1127653_csm_fine_newcase">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </case_condition>
+        <case_table>x_1127653_csm_fine_newcase</case_table>
+        <document_template display_value="Test Document Template">82c5eebd83d01210950111d6feaad35c</document_template>
+        <name>NewCase Digest Conf</name>
+        <order>100</order>
+        <sys_class_name>sn_csm_case_digest_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 09:33:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>b1566efd83d01210950111d6feaad3cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NewCase Digest Conf</sys_name>
+        <sys_package display_value="CSM Finetuning" source="x_1127653_csm_fine">3582b74583101210950111d6feaad3d9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Finetuning">3582b74583101210950111d6feaad3d9</sys_scope>
+        <sys_update_name>sn_csm_case_digest_config_b1566efd83d01210950111d6feaad3cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 09:33:09</sys_updated_on>
+        <table_name>sn_csm_case_digest_cas</table_name>
+    </sn_csm_case_digest_config>
+</record_update>
